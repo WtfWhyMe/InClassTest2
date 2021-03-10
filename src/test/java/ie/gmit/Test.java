@@ -3,8 +3,8 @@
 package ie.gmit;
 
 import org.junit.jupiter.api.function.Executable;
-import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
-import static org.junit.jupiter.api.Assertions.assertThrows;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 public class Test {
 
@@ -96,7 +96,7 @@ public class Test {
             public void execute() throws Throwable {
                 Employee e1 = new Employee("Sergey", "88888888", "55555", 18);
                 Employee e2 = new Employee("dfgdfg", "99999999", "666666", 20);
-                Employee e3 = new Employee("Sergey", "88888888", "55555", 22);
+                Employee e3 = new Employee("Sergey", "88888888", "55555", 18);
                 EmployeeList el = new EmployeeList();
                 el.addToList(e1);
                 el.addToList(e2);
