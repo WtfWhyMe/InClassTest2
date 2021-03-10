@@ -1,3 +1,6 @@
+/*Sergey Moiseenko 2021 inClassTest 2
+* This Class stores a list of employee class and has methods to add items to a list
+* and can validate if the data is correct and unique*/
 package ie.gmit;
 
 import java.util.ArrayList;

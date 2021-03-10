@@ -1,3 +1,5 @@
+/*Sergey Moiseenko 2021 inClassTest 2
+* this is a test class that tests main functionality*/
 package ie.gmit;
 
 import org.junit.jupiter.api.function.Executable;

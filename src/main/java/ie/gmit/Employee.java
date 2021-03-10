@@ -1,3 +1,6 @@
+/*Sergey Moiseenko 2021 inClassTest 2
+* This class store 3 Strings and 1 int. It have 1 constructor
+* and 5 methods to verify what data is stored in the varialbes */
 package ie.gmit;
 
 public class Employee {
